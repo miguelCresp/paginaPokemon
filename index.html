@@ -6,16 +6,17 @@
     <title>Pokedex</title>
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
-    <form id="search-form">
-      <input type="text" id="pokemon-input" placeholder="Escribe el nombre de un Pokémon"
-      />
+  <body class="container">
+    <h2>Pokédex</h2>
+    <form id="form">
+      <input type="text" id="input" placeholder="Escribe el nombre de un Pokémon"/>
       <button type="submit">Buscar</button>
     </form>
-    <h2>Lista de Stats de Psyduck</h2>
+    <p id="mensaje"></p>
+    <div id="imagen"></div>
     <ul id="stats"></ul>
-    <p id="imagen"></p>
-    <audio id="ruido" src="" controls></audio>
+    <audio id="ruido" controls style="display: none;"></audio>
+    
     <script src="index.js"></script>
   </body>
 </html>

@@ -1,3 +1,4 @@
+/* Falta hacer los estilos bien */
 body {
     margin: 0;
     padding: 0;
@@ -27,4 +28,18 @@ a:hover {
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
 }
